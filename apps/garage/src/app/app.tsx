@@ -1,15 +1,11 @@
-import styled from 'styled-components';
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { MainHeading, CarForm } from 'libs/shared-components/src';
+import { EMainHeadingColor } from 'libs/types/src';
 
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="garage" />
-    </StyledApp>
+    <div className={'ch-container'}>
+      <CarForm />
+    </div>
   );
 }
 

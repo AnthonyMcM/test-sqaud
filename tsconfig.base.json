@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-sqaud/shared-components": ["libs/shared-components/src/index.ts"],
+      "@test-sqaud/types": ["libs/types/src/index.ts"]
+    },
+    "typeRoots": ["libs/types/src/index.ts"]
   },
   "exclude": ["node_modules", "tmp"]
 }
