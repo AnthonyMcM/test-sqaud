@@ -19,7 +19,6 @@
         "passWithNoTests": true
       }
     },
-
     "test:watch": {
       "executor": "@nrwl/jest:jest",
       "outputs": ["coverage/libs/shared-components"],
@@ -29,7 +28,6 @@
         "watchAll": true
       }
     },
-
     "storybook": {
       "executor": "@nrwl/storybook:storybook",
       "options": {

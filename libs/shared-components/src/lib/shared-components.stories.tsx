@@ -1,6 +1,11 @@
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { MainHeading } from './shared-components';
-import { EMainHeadingColor } from '@test-sqaud/types';
+
+enum EMainHeadingColor {
+  RED = 'red',
+  BLUE = 'blue',
+  GREEN = 'green',
+}
 
 export default {
   component: MainHeading,

@@ -22,7 +22,7 @@ describe('Card', () => {
     const reg = result.getByText('B24 XPC');
     expect(reg).toBeTruthy();
 
-    const price = result.getAllByText('Price £2000');
+    const price = result.getAllByText('Price £1000');
     expect(price).toBeTruthy();
   });
 });

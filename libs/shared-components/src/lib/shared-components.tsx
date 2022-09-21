@@ -1,8 +1,15 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { EMainHeadingColor } from '@test-sqaud/types';
 
-const StyledMainHeading = styled.div<{ headingColor: EMainHeadingColor }>`
+enum EMainHeadingColor {
+  RED = 'red',
+  BLUE = 'blue',
+  GREEN = 'green',
+}
+
+const StyledMainHeading = styled.div<{
+  headingColor: EMainHeadingColor;
+}>`
   /* color: blue; */
   color: ${(props) => props.headingColor};
 `;

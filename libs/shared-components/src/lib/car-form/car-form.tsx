@@ -1,11 +1,12 @@
-import { ICarFormData } from '@test-sqaud/types';
 import React from 'react';
 import { useForm } from './useForm';
 /* eslint-disable-next-line */
-export interface CarFormProps {}
+export interface CarFormProps {
+  onSubmit: (formData: MyNamespace.ICarFormData) => void;
+}
 
 export function CarForm(props: CarFormProps) {
-  const { formData, onChange } = useForm<ICarFormData>({
+  const { formData, onChange } = useForm<MyNamespace.ICarFormData>({
     make: '',
     model: '',
     reg: '',
@@ -15,7 +16,12 @@ export function CarForm(props: CarFormProps) {
   return (
     <div className="ch-pa--3 ch-mt--4 ch-bg--white ch-ba--1 ch-rounded--lg ch-bc--white ch-shadow--md">
       <h1 className="ch-fs--5">Add new car</h1>
-      <form>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          props.onSubmit(formData);
+        }}
+      >
         <div className="ch-display--flex ch-flex-flow--row-wrap ch-mb--4">
           <div className="ch-form__group ch-width--5 ch-mr--4 ch-rounded--lg ">
             <label htmlFor="make" className="ch-form__control-label">

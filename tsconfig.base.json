@@ -16,11 +16,9 @@
     "baseUrl": ".",
     "types": ["jest", "node"],
     "paths": {
-      "@test-sqaud/shared-components": ["libs/shared-components/src/index.ts"],
-      "@test-sqaud/types": ["libs/types/src/index.ts"]
-    },
-    "include": ["src/**/*", "**/*.spec.ts", "**/*.test.ts"],
-    "typeRoots": ["libs/types/src/index.ts"]
+      "@test-sqaud/shared-components": ["libs/shared-components/src/index.ts"]
+    }
   },
+  "include": ["src/**/*", "**/*.spec.ts", "**/*.test.ts"],
   "exclude": ["node_modules", "tmp"]
 }

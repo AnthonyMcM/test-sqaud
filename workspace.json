@@ -3,7 +3,6 @@
   "version": 2,
   "projects": {
     "garage": "apps/garage",
-    "shared-components": "libs/shared-components",
-    "types": "libs/types"
+    "shared-components": "libs/shared-components"
   }
 }

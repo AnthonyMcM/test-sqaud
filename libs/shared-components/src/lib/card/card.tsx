@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { ICar } from '@test-sqaud/types';
 
 /* eslint-disable-next-line */
 
@@ -7,7 +6,7 @@ const StyledCard = styled.div`
   color: black;
 `;
 
-interface ICardData extends Omit<ICar, 'id' | 'price'> {
+interface ICardData extends Omit<MyNamespace.ICar, 'id' | 'price'> {
   price: string;
 }
 

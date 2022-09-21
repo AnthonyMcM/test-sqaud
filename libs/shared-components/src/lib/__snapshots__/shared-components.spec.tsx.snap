@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SharedComponents should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="shared-components__StyledMainHeading-d7vfww-0 eTsNWm"
+    >
+      <h1 />
+    </div>
+  </div>
+</body>
+`;

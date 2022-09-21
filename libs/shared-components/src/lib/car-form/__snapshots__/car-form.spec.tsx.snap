@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarForm should match snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="ch-pa--3 ch-mt--4 ch-bg--white ch-ba--1 ch-rounded--lg ch-bc--white ch-shadow--md"
+    >
+      <h1
+        class="ch-fs--5"
+      >
+        Add new car
+      </h1>
+      <form>
+        <div
+          class="ch-display--flex ch-flex-flow--row-wrap ch-mb--4"
+        >
+          <div
+            class="ch-form__group ch-width--5 ch-mr--4 ch-rounded--lg "
+          >
+            <label
+              class="ch-form__control-label"
+              for="make"
+            >
+              Make
+            </label>
+            <input
+              class="ch-form__control ch-rounded--lg"
+              id="make"
+              name="make"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="ch-form__group ch-width--5"
+          >
+            <label
+              class="ch-form__control-label"
+              for="model"
+            >
+              Model
+            </label>
+            <input
+              class="ch-form__control"
+              id="model"
+              name="model"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="ch-form__group ch-width--5 ch-mr--4"
+          >
+            <label
+              class="ch-form__control-label"
+              for="reg"
+            >
+              Registration
+            </label>
+            <input
+              class="ch-form__control"
+              id="reg"
+              name="reg"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="ch-form__group ch-width--5"
+          >
+            <label
+              class="ch-form__control-label"
+              for="price"
+            >
+              Price
+            </label>
+            <input
+              class="ch-form__control"
+              id="price"
+              name="price"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="ch-form__group"
+        >
+          <input
+            class="ch-radio"
+            id="large-1"
+            name="large"
+            type="radio"
+            value="plan-1"
+          />
+          <label
+            class="ch-radio__label ch-radio__label--large"
+            for="large-1"
+          >
+            Service plan 1
+            <small>
+              From £6 per month
+            </small>
+          </label>
+          <input
+            class="ch-radio"
+            id="large-2"
+            name="large"
+            type="radio"
+            value="plan-2"
+          />
+          <label
+            class="ch-mt--2 ch-radio__label ch-radio__label--large"
+            for="large-2"
+          >
+            Service plan 2
+            <small>
+              From £8 per month
+            </small>
+          </label>
+          <input
+            class="ch-radio"
+            disabled=""
+            id="large-3"
+            name="large"
+            type="radio"
+            value="plan-3"
+          />
+          <label
+            class="ch-mt--2 ch-radio__label ch-radio__label--large"
+            for="large-3"
+          >
+            Service plan 3
+            <small>
+              From £12 per month
+            </small>
+          </label>
+        </div>
+        <button
+          class="ch-btn ch-btn--success"
+          type="submit"
+        >
+          Submit car
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+`;
