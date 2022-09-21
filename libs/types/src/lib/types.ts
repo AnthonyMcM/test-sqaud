@@ -1,6 +1,7 @@
 export enum EMainHeadingColor {
-  'red',
-  'blue',
+  RED = 'red',
+  BLUE = 'blue',
+  GREEN = 'green',
 }
 
 export interface ICar {
@@ -12,5 +13,9 @@ export interface ICar {
 }
 
 export interface ICarFormData extends Omit<ICar, 'id' | 'price'> {
+  price: string;
+}
+
+export interface ICardData extends Omit<ICar, 'id' | 'price'> {
   price: string;
 }

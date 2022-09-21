@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="card__StyledCard-sc-1vtda9q-0 gsqpfj"
+    >
+      <div
+        class="ch-card"
+      >
+        <div
+          class="ch-card__content"
+        >
+          <h3>
+            BMW 1 Series
+          </h3>
+          <p
+            class="ch-mb--2"
+          >
+            B24 XPC
+          </p>
+          <p
+            class="ch-mb--0"
+          >
+            <b>
+              Price £1000
+            </b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
