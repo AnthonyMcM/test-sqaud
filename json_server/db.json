@@ -1,0 +1,25 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "make": "Suzuki",
+      "model": "Alto",
+      "reg": "PK15 PYW",
+      "price": 9998
+    },
+    {
+      "id": 2,
+      "make": "Seat",
+      "model": "Mii",
+      "reg": "SA64 ZNF",
+      "price": 9998
+    },
+    {
+      "id": 3,
+      "make": "Fiat",
+      "model": "Panda",
+      "reg": "CU64 PLZ",
+      "price": 9998
+    }
+  ]
+}
