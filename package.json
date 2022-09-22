@@ -10,6 +10,8 @@
   },
   "private": true,
   "dependencies": {
+    "@tanstack/react-query": "^4.3.9",
+    "@tanstack/react-query-devtools": "^4.3.9",
     "@testing-library/user-event": "^14.4.3",
     "core-js": "^3.6.5",
     "json-server": "^0.17.0",

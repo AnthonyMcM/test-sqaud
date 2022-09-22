@@ -6,8 +6,8 @@ const StyledCard = styled.div`
   color: black;
 `;
 
-interface ICardData extends Omit<MyNamespace.ICar, 'id' | 'price'> {
-  price: string;
+interface ICardData extends Omit<MyNamespace.ICar, 'id'> {
+  price: number;
 }
 
 export function Card(props: ICardData) {
